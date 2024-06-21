@@ -4,7 +4,7 @@ import { Play as PlayIcon } from "lucide-react";
 
 export default function VerticalCard() {
   return (
-    <a className="p-2 hover:bg-white/10 group cursor-pointer transition-colors flex flex-col items-start gap-4 rounded overflow-hidden">
+    <a className="p-2 w-fit hover:bg-white/10 group cursor-pointer transition-colors flex flex-col items-start gap-4 rounded overflow-hidden">
       <div className="relative">
         <Image
           src="/120x120.svg"
