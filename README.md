@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone
 
-## Getting Started
+## Sobre o Projeto
 
-First, run the development server:
+Spotify Reimagined é um clone front-end do Spotify, desenvolvido com o objetivo de criar uma experiência única e personalizada para os usuários. Este projeto não segue um design pré-definido do Spotify original, permitindo a inclusão de características e funcionalidades exclusivas que refletem uma abordagem criativa e inovadora.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Next.js**: Framework React para produção de websites e aplicações web.
+- **Tailwind CSS**: Framework de CSS para design rápido e responsivo.
+
+## Características
+
+- **Design Responsivo**: Adapta-se a qualquer tamanho de tela, proporcionando uma experiência consistente em todos os dispositivos.
+- **Versão Desktop**: Mantém visual semelhante ao Spotify original, com modificações que melhoram a experiência do usuário.
+- **Versão Mobile Reimaginada**: Versão completamente original projetada para ser mais intuitiva e adaptada às necessidades móveis dos usuários.
+
+## Desafios e Soluções
+
+O desafio de inovar partindo de um produto já conhecido foi superado através de um estudo aprofundado da UI/UX do Spotify. Tailwind CSS foi essencial para garantir que o design fosse tanto funcional quanto esteticamente agradável, adaptando-se a diferentes dispositivos sem perder a identidade visual.
+
+## Como Usar
+
+Para rodar o projeto localmente, siga os passos abaixo:
 
 ```bash
+# Clone o repositório
+git clone [URL-do-repositório]
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
