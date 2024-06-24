@@ -16,8 +16,8 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0 bg-zinc-900 border-t border-zinc-700 p-3 flex items-center justify-between">
-      <div className="w-[33%] flex items-center gap-4">
+    <footer className="sticky bottom-0 bg-zinc-900 border-t border-zinc-700 p-3 flex items-center justify-between flex-col gap-4 md:flex-row">
+      <div className="w-full md:w-[33%] flex items-center gap-4">
         <Image src="/120x120.svg" alt="" width={54} height={54} />
         <div className="flex flex-col">
           <strong className="font-semibold hover:underline cursor-pointer">
@@ -28,7 +28,7 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      <div className="w-[33%] flex flex-col gap-2 items-center justify-center">
+      <div className="md:w-[33%] flex flex-col gap-2 items-center justify-center">
         <div className="flex gap-4 items-center justify-between">
           <button>
             <ShuffleIcon size="18px" strokeWidth={1} />
@@ -54,7 +54,7 @@ export default function Footer() {
           <span className="text-sm text-zinc-400">4:00</span>
         </div>
       </div>
-      <div className="w-[33%] flex gap-3 items-center justify-end">
+      <div className="md:w-[33%] flex gap-3 items-center justify-end">
         <button>
           <SquarePlayIcon size="18px" strokeWidth={1} />
         </button>

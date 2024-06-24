@@ -8,14 +8,13 @@ import {
   ChevronRight as ChevronRightIcon,
 } from "lucide-react";
 
-import { Footer } from "@/components";
-import { VerticalCard, HorizontalCard } from "@/components/cards";
+import { Card, Footer } from "@/components";
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
-      <div className="flex flex-1">
-        <aside className="w-72 bg-zinc-900 p-6">
+      <div className="flex flex-1 flex-col md:flex-row">
+        <aside className="md:w-72 bg-zinc-900 p-6">
           <nav className="space-y-4">
             <a
               href=""
@@ -66,11 +65,13 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <HorizontalCard />
-            <HorizontalCard />
-            <HorizontalCard />
-            <HorizontalCard />
-            <HorizontalCard />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
+            <Card title="Playlist/album" description="artist" imgSize={104} />
           </div>
 
           <div className="w-full flex items-center justify-between mt-10">
@@ -81,12 +82,42 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-9 gap-4 mt-4">
-            <VerticalCard />
-            <VerticalCard />
-            <VerticalCard />
-            <VerticalCard />
-            <VerticalCard />
-            <VerticalCard />
+            <Card
+              title="Playlist/album"
+              description="artist"
+              col
+              imgSize={172}
+            />
+            <Card
+              title="Playlist/album"
+              description="artist"
+              col
+              imgSize={172}
+            />
+            <Card
+              title="Playlist/album"
+              description="artist"
+              col
+              imgSize={172}
+            />
+            <Card
+              title="Playlist/album"
+              description="artist"
+              col
+              imgSize={172}
+            />
+            <Card
+              title="Playlist/album"
+              description="artist"
+              col
+              imgSize={172}
+            />
+            <Card
+              title="Playlist/album"
+              description="artist"
+              col
+              imgSize={172}
+            />
           </div>
         </main>
       </div>
